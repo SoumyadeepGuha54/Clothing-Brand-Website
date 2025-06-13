@@ -11,7 +11,7 @@ header {
   background-color: #fca847;
   padding: 30px;
   display: grid;
-  grid-template-columns: 15vw auto;
+  grid-template-columns: auto auto;
 }
 .site_left {
   background-color: #fca847;
@@ -36,7 +36,7 @@ header {
   background-color: #e7374f;
   margin: 5px;
   padding: 10px;
-  width: 4vw;
+  width: 60px;
   color: #fbf7f4;
   text-align: center;
   border: 1px solid #e7374f;
@@ -58,7 +58,7 @@ header {
   background-color: #113743;
   margin: 5px;
   padding: 10px;
-  width: 10vw;
+  width: 150px;
   color: #fbf7f4;
   text-align: center;
   border: 1px solid #fbf7f4;
@@ -68,7 +68,7 @@ header {
   background-color: #fbf7f4;
   margin: 5px;
   padding: 10px;
-  width: 10vw;
+  width: 150px;
   color: #113743;
   text-align: center;
   border: 1px solid #fbf7f4;
@@ -76,8 +76,7 @@ header {
 }
 .billboard {
   background-image: url(billboard-image.jpg);
-  height: 55vh;
-  width: 100vw;
+  height: 150px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -96,13 +95,13 @@ header {
 }
 .box {
   background-color: #fca847;
-  height: 70vh;
+  height: 510px;
   margin: 10px;
   padding: 10px;
   border: 2px solid #fca847;
   border-radius: 28px;
   display: grid;
-  grid-template-rows: 60vh auto;
+  grid-template-rows: 450px auto;
   row-gap: 10px;
 }
 .box_image_1 {
@@ -136,7 +135,7 @@ header {
 }
 .button_text {
   background-color: #e7374f;
-  width: 10vw;
+  width: 150px;
   padding: 10px;
   text-align: center;
   border: 1px solid #e7374f;

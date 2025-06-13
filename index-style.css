@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: #fbf7f4;
+  font-family: Urbanist;
+}
+header {
+  background-color: #113743;
+}
+.site {
+  background-color: #fca847;
+  padding: 30px;
+  display: grid;
+  grid-template-columns: 15vw auto;
+}
+.site_left {
+  background-color: #fca847;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+.site_right {
+  background-color: #fca847;
+  display: flex;
+  justify-content: right;
+}
+.site_right a {
+  background-color: #fca847;
+  text-decoration: none;
+}
+.name {
+  background-color: #fca847;
+  font-size: 2rem;
+}
+.site_item {
+  background-color: #e7374f;
+  margin: 5px;
+  padding: 10px;
+  width: 4vw;
+  color: #fbf7f4;
+  text-align: center;
+  border: 1px solid #e7374f;
+  border-radius: 25px;
+}
+
+
+

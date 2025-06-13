@@ -90,14 +90,14 @@ header {
   text-align: center;
 }
 .categories {
-  padding: 15px;
+  margin: 5px;
   display: grid;
   grid-template-columns: auto auto auto;
 }
 .box {
   background-color: #fca847;
   height: 70vh;
-  margin: 20px;
+  margin: 10px;
   padding: 10px;
   border: 2px solid #fca847;
   border-radius: 28px;
@@ -105,16 +105,34 @@ header {
   grid-template-rows: 60vh auto;
   row-gap: 10px;
 }
-.box_image {
-  background-color: #fbf7f4;
-  border: 2px solid #fbf7f4;
+.box_image_1 {
+  background-image: url(box-image-1.jpg);
+  border: 3px solid #fbf7f4;
   border-radius: 20px;
+  background-size: cover;
+}
+.box_image_2 {
+  background-image: url(box-image-2.jpg);
+  border: 3px solid #fbf7f4;
+  border-radius: 20px;
+  background-size: cover;
+}
+.box_image_3 {
+  background-image: url(box-image-3.jpg);
+  border: 3px solid #fbf7f4;
+  border-radius: 20px;
+  background-size: cover;
 }
 .button {
   background-color: #fca847;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.button a {
+  background-color: #fca847;
+  text-decoration: none;
+  color: #fbf7f4;
 }
 .button_text {
   background-color: #e7374f;

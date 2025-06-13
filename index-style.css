@@ -30,7 +30,9 @@ header {
 }
 .name {
   background-color: #fca847;
+  font-family: "Bungee Shade";
   font-size: 2rem;
+  font-weight: 1000;
 }
 .site_item {
   background-color: #e7374f;

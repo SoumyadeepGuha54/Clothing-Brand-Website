@@ -4,36 +4,43 @@
   background-color: #fbf7f4;
   font-family: Urbanist;
 }
+
 header {
   background-color: #113743;
 }
+
 .site {
   background-color: #fca847;
   padding: 30px;
   display: grid;
   grid-template-columns: auto auto;
 }
+
 .site_left {
   background-color: #fca847;
   display: flex;
   justify-content: left;
   align-items: center;
 }
+
 .site_right {
   background-color: #fca847;
   display: flex;
   justify-content: right;
 }
+
 .site_right a {
   background-color: #fca847;
   text-decoration: none;
 }
+
 .name {
   background-color: #fca847;
   font-family: "Bungee Shade";
   font-size: 2rem;
   font-weight: 1000;
 }
+
 .site_item {
   background-color: #e7374f;
   margin: 5px;
@@ -44,18 +51,22 @@ header {
   border: 1px solid #e7374f;
   border-radius: 25px;
 }
+
 .navbar {
   background-color: #113743;
   padding: 5px;
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
+  align-items: center;
 }
+
 .navbar a {
   background-color: #113743;
   color: #fbf7f4;
   text-decoration: none;
+  border-radius: 25px;
 }
+
 .nav_item {
   background-color: #113743;
   margin: 5px;
@@ -66,6 +77,7 @@ header {
   border: 1px solid #fbf7f4;
   border-radius: 25px;
 }
+
 .nav_item_active {
   background-color: #fbf7f4;
   margin: 5px;
@@ -76,6 +88,7 @@ header {
   border: 1px solid #fbf7f4;
   border-radius: 25px;
 }
+
 .billboard {
   background-image: url(billboard-image.jpg);
   height: 400px;
@@ -84,6 +97,7 @@ header {
   justify-content: center;
   align-items: center;
 }
+
 .billboard_text {
   background: none;
   color: #fbf7f4;
@@ -91,6 +105,7 @@ header {
   font-weight: 500;
   text-align: center;
 }
+
 .categories_text {
   background-color: #e7374f;
   margin-top: 15px;
@@ -100,11 +115,13 @@ header {
   font-weight: 500;
   text-align: center;
 }
+
 .categories_content {
   margin: 5px;
   display: grid;
   grid-template-columns: auto auto auto;
 }
+
 .box {
   background-color: #fca847;
   height: 550px;
@@ -116,47 +133,58 @@ header {
   grid-template-rows: 30px auto 50px;
   row-gap: 10px;
 }
+
 .box_text_parent {
   background-color: #fca847;
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 .box_text_child {
   background-color: #fca847;
   font-size: 1.5rem;
   font-weight: 500;
   text-align: center;
 }
+
 .box_image_1 {
   background-image: url(box-image-1.jpg);
   border: 3px solid #fbf7f4;
   border-radius: 20px;
   background-size: cover;
+  background-position: center;
 }
+
 .box_image_2 {
   background-image: url(box-image-2.jpg);
   border: 3px solid #fbf7f4;
   border-radius: 20px;
   background-size: cover;
+  background-position: center;
 }
+
 .box_image_3 {
   background-image: url(box-image-3.jpg);
   border: 3px solid #fbf7f4;
   border-radius: 20px;
   background-size: cover;
+  background-position: center;
 }
+
 .button {
   background-color: #fca847;
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 .button a {
   background-color: #fca847;
   text-decoration: none;
   color: #fbf7f4;
 }
+
 .button_text {
   background-color: #113743;
   width: 150px;
@@ -165,9 +193,11 @@ header {
   border: 1px solid #113743;
   border-radius: 25px;
 }
+
 footer {
   background-color: #113743;
 }
+
 .footer_text {
   background-color: #113743;
   padding: 12px;
